@@ -1,7 +1,7 @@
 from functools import partial
 
 import tensorflow.compat.v1 as tf
-from tensorflow.contrib.framework import add_arg_scope
+from tf_slim import add_arg_scope
 
 from tfsnippet.utils import (validate_int_tuple_arg, is_integer,
                              add_name_and_scope_arg_doc)
