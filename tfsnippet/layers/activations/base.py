@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import (get_default_scope_name, camel_to_underscore,
                              add_name_and_scope_arg_doc)

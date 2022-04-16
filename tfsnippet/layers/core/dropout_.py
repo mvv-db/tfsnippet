@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.contrib.framework import add_arg_scope
 
 from tfsnippet.ops import smart_cond, convert_to_tensor_and_cast

@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import assert_shape_equal
 from tfsnippet.utils import (add_name_and_scope_arg_doc, get_static_shape,

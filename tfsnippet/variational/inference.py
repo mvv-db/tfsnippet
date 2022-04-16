@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import add_n_broadcast
 from tfsnippet.utils import add_name_arg_doc

@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.contrib.framework import add_arg_scope
 
 from tfsnippet.ops import flatten_to_ndims, unflatten_from_ndims

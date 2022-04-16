@@ -2,7 +2,7 @@
 import sys
 from argparse import ArgumentParser
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from pprint import pformat
 from tensorflow.contrib.framework import arg_scope
 

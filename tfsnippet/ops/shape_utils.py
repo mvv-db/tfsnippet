@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import (add_name_arg_doc, get_static_shape, concat_shapes,
                              get_shape, is_tensor_object, assert_deps,

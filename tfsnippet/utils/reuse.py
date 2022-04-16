@@ -4,7 +4,7 @@ import weakref
 from contextlib import contextmanager
 
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from .doc_utils import DocInherit
 from .scope import root_variable_scope, get_default_scope_name

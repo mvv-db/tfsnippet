@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.contrib.framework import add_arg_scope
 
 from tfsnippet.ops import (assert_rank, assert_scalar_equal, flatten_to_ndims,

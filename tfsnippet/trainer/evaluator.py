@@ -3,7 +3,7 @@ from contextlib import contextmanager
 
 import numpy as np
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.dataflows import DataFlow
 from tfsnippet.utils import get_default_session_or_error, EventSource

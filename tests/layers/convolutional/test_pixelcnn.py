@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from mock import mock, Mock
 
 from tests.layers.convolutional.test_conv2d import patched_conv2d

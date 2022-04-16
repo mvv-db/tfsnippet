@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import (assert_rank_at_least, broadcast_to_shape,
                            broadcast_to_shape_strict)

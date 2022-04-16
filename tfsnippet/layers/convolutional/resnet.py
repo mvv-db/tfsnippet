@@ -1,6 +1,6 @@
 from functools import partial
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.contrib.framework import add_arg_scope
 
 from tfsnippet.utils import (validate_int_tuple_arg, is_integer,

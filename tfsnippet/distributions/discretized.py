@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import (maybe_clip_value, convert_to_tensor_and_cast,
                            broadcast_to_shape)

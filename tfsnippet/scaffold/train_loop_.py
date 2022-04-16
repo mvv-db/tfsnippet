@@ -10,7 +10,7 @@ from contextlib import contextmanager
 from logging import getLogger
 
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.dataflows import DataFlow
 from tfsnippet.utils import (StatisticsCollector, DisposableContext,

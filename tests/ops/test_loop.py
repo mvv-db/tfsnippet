@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import pixelcnn_2d_sample, convert_to_tensor_and_cast
 

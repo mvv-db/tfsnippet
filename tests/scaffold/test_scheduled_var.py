@@ -1,5 +1,5 @@
 import os
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tests.helper import assert_variables
 from tfsnippet.scaffold import ScheduledVariable, AnnealingVariable

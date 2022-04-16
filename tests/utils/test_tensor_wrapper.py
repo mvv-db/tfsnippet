@@ -2,7 +2,7 @@
 import numpy as np
 import pytest
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import TensorWrapper, register_tensor_wrapper_class
 from tests.utils._div_op import regular_div, floor_div

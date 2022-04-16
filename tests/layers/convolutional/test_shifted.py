@@ -2,7 +2,7 @@ import functools
 
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from mock import mock
 
 from tests.layers.convolutional.helper import (input_maybe_to_channels_last,

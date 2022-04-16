@@ -1,5 +1,5 @@
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from .doc_utils import DocInherit
 from .shape_utils import get_static_shape

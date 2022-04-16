@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import log_sum_exp
 from tfsnippet.stochastic import StochasticTensor

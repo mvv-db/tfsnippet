@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import (add_name_and_scope_arg_doc, VarScopeRandomState,
                              get_static_shape, get_shape, model_variable)

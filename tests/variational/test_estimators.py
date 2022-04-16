@@ -2,7 +2,7 @@ import functools
 
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import get_static_shape, ensure_variables_initialized
 from tfsnippet.variational import *

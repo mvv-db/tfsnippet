@@ -1,6 +1,6 @@
 import functools
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from .doc_utils import add_name_arg_doc
 from .type_utils import is_tensor_object

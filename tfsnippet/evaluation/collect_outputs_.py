@@ -1,7 +1,7 @@
 from collections import OrderedDict
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.trainer import resolve_feed_dict, merge_feed_dict
 from tfsnippet.utils import validate_enum_arg, get_default_session_or_error

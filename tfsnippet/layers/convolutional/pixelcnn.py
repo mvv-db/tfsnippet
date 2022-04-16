@@ -1,6 +1,6 @@
 from functools import partial
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.contrib.framework import add_arg_scope
 
 from tfsnippet.utils import (add_name_arg_doc, get_static_shape, get_shape,

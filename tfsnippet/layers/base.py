@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.shortcuts import VarScopeObject
 from tfsnippet.utils import (DocInherit, add_name_and_scope_arg_doc,

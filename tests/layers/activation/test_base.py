@@ -2,7 +2,7 @@ import functools
 
 import pytest
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from mock import Mock
 
 from tfsnippet.layers import *

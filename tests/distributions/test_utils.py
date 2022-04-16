@@ -1,7 +1,7 @@
 import pytest
 import six
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.distributions import reduce_group_ndims
 

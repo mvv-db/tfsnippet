@@ -1,7 +1,7 @@
 import random
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import VarScopeRandomState, set_random_seed
 

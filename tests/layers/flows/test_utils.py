@@ -2,7 +2,7 @@ import functools
 
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.layers import MultiLayerFlow
 from tfsnippet.layers.flows.utils import (is_log_det_shape_matches_input,

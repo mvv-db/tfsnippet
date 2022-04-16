@@ -3,7 +3,7 @@ import os
 from collections import OrderedDict
 
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import (VarScopeObject, add_name_and_scope_arg_doc,
                              reopen_variable_scope, makedirs,

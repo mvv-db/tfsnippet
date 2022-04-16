@@ -2,7 +2,7 @@ import functools
 
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tests.layers.flows.helper import invertible_flow_standard_check
 from tfsnippet.layers import CouplingLayer, conv2d
