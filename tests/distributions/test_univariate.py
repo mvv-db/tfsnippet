@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.distributions import *
 from tfsnippet.utils import scoped_set_config, settings

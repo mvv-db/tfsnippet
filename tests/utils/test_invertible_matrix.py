@@ -3,7 +3,7 @@ import itertools
 
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import *
 from tests.helper import assert_variables

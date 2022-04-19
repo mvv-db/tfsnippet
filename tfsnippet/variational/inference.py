@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import zhusuan as zs
 
 from tfsnippet.ops import add_n_broadcast

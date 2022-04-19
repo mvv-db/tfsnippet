@@ -4,7 +4,7 @@ import shutil
 import warnings
 from logging import getLogger
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import (DisposableContext, TemporaryDirectory, makedirs,
                              deprecated)

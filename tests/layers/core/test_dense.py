@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tests.helper import assert_variables
 from tests.layers.helper import l2_normalize

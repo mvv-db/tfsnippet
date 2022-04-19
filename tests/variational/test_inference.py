@@ -2,7 +2,7 @@ from collections import namedtuple
 
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import zhusuan as zs
 
 from tfsnippet.ops import add_n_broadcast

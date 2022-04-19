@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tests.layers.flows.helper import (quadratic_transform, QuadraticFlow,
                                        npyops, invertible_flow_standard_check)

@@ -1,5 +1,5 @@
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.shortcuts import global_reuse
 from tfsnippet.utils import (get_default_session_or_error,

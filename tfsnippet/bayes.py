@@ -2,7 +2,7 @@ import warnings
 from collections import OrderedDict
 
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from frozendict import frozendict
 
 from tfsnippet.distributions import (Distribution, FlowDistribution,

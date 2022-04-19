@@ -1,7 +1,7 @@
 import unittest
 
 import six
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.trainer import *
 from tfsnippet.utils import ensure_variables_initialized

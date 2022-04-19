@@ -1,6 +1,6 @@
 import contextlib
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import zhusuan
 
 from tfsnippet.utils import get_default_scope_name

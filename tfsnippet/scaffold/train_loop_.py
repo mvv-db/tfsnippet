@@ -7,7 +7,7 @@ import time
 from collections import OrderedDict
 from contextlib import contextmanager
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.dataflows import DataFlow
 from tfsnippet.utils import (StatisticsCollector, DisposableContext,

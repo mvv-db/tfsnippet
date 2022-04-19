@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import get_static_shape, InputSpec, get_shape, assert_deps
 from .base import BaseFlow, sum_log_det

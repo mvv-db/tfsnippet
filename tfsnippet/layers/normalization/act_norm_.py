@@ -1,6 +1,6 @@
 import numpy as np
-import tensorflow as tf
-from tensorflow.contrib.framework import add_arg_scope
+import tensorflow.compat.v1 as tf
+from tf_slim import add_arg_scope
 
 from tfsnippet.layers.flows.utils import (broadcast_log_det_against_input,
                                           ExpScale, LinearScale)

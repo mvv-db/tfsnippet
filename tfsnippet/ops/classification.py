@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import add_name_arg_doc, InputSpec, get_static_shape
 

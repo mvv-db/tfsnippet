@@ -2,7 +2,7 @@ import os
 
 import pytest
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.scaffold import EarlyStopping
 from tfsnippet.utils import TemporaryDirectory, get_default_session_or_error

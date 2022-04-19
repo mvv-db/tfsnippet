@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.ops import assert_rank_at_least
 from tfsnippet.utils import (add_name_arg_doc, get_static_shape, get_shape,

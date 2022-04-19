@@ -1,6 +1,6 @@
 import unittest
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import is_tensorflow_version_higher_or_equal
 

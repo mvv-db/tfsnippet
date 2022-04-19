@@ -1,7 +1,7 @@
 import functools
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from mock import mock
 
 from tfsnippet.layers import *

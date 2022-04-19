@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tests.helper import assert_variables
 from tfsnippet.layers import *

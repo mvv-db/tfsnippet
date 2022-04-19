@@ -1,6 +1,6 @@
 import six
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from .debugging import assert_deps
 from .tensor_wrapper import TensorWrapper

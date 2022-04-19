@@ -1,6 +1,6 @@
 import semver
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 __all__ = ['is_tensorflow_version_higher_or_equal']
 

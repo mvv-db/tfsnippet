@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.layers import SequentialFlow, BaseFlow
 from tests.layers.flows.test_base import MultiLayerQuadraticFlow

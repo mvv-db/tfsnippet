@@ -2,9 +2,9 @@
 import sys
 from argparse import ArgumentParser
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from pprint import pformat
-from tensorflow.contrib.framework import arg_scope
+from tf_slim import arg_scope
 
 import tfsnippet as spt
 from tfsnippet.examples.utils import MLResults, print_with_title

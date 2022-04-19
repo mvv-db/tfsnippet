@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.layers.convolutional.utils import get_deconv_output_length
 from tfsnippet.utils import get_static_shape

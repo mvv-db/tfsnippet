@@ -1,6 +1,6 @@
 import imageio
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from matplotlib import pyplot as plt
 
 from tfsnippet.distributions import Bernoulli

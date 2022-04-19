@@ -3,9 +3,9 @@ import functools
 import sys
 from argparse import ArgumentParser
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from pprint import pformat
-from tensorflow.contrib.framework import arg_scope, add_arg_scope
+from tf_slim import arg_scope, add_arg_scope
 
 import tfsnippet as spt
 from tfsnippet.examples.utils import (MLResults,

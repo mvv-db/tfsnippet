@@ -2,7 +2,7 @@ import functools
 import unittest
 
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.utils import *
 from tfsnippet.utils.tensor_spec import _TensorSpec

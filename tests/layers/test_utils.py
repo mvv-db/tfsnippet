@@ -1,6 +1,6 @@
 import mock
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.layers.utils import validate_weight_norm_arg
 

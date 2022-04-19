@@ -1,7 +1,7 @@
 import os
 from logging import getLogger
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from tfsnippet.shortcuts import VarScopeObject
 from tfsnippet.utils import (makedirs, reopen_variable_scope,
