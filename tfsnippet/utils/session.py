@@ -68,7 +68,7 @@ def get_default_session_or_error():
     return ret
 
 
-def get_variables_as_dict(scope=None, collection=tf.GraphKeys.GLOBAL_VARIABLES):
+def get_variables_as_dict(scope=None, collection=tensorflow.compat.v1.GraphKeys.GLOBAL_VARIABLES):
     """
     Get TensorFlow variables as dict.
 
