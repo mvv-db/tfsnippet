@@ -1,6 +1,5 @@
 import six
 import tensorflow.compat.v1 as tf
-from tensorflow.compat.v1 import GraphKeys
 
 __all__ = [
     'create_session',
@@ -69,7 +68,7 @@ def get_default_session_or_error():
     return ret
 
 
-def get_variables_as_dict(scope=None, collection=GraphKeys.GLOBAL_VARIABLES):
+def get_variables_as_dict(scope=None, collection=tf.GraphKeys.GLOBAL_VARIABLES):
     """
     Get TensorFlow variables as dict.
 
