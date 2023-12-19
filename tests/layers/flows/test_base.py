@@ -130,7 +130,7 @@ class MultiLayerQuadraticFlow(MultiLayerFlow):
                                                       n_layers=n_layers)
         self._flows = []
 
-        with tf.variable_scope(None, default_name='MultiLayerQuadraticFlow'):
+        with tf.compat.v1.variable_scope(None, default_name='MultiLayerQuadraticFlow'):
             for layer_id in range(self.n_layers):
                 self._flows.append(
                     QuadraticFlow(layer_id + 1, layer_id * 2 + 1))
@@ -240,9 +240,9 @@ class FeatureMappingFlowTestCase(tf.test.TestCase):
         with pytest.raises(ValueError, match='The feature axis of `input` '
                                              'is not deterministic'):
             layer = FeatureMappingFlow(axis=(-1, -2), value_ndims=2)
-            _ = layer.apply(tf.placeholder(dtype=tf.float32, shape=[None, 3]))
+            _ = layer.apply(tf.compat.v1.placeholder(dtype=tf.float32, shape=[None, 3]))
 
         with pytest.raises(ValueError, match='The feature axis of `input` '
                                              'is not deterministic'):
             layer = FeatureMappingFlow(axis=-2, value_ndims=2)
-            _ = layer.apply(tf.placeholder(dtype=tf.float32, shape=[None, 3]))
+            _ = layer.apply(tf.compat.v1.placeholder(dtype=tf.float32, shape=[None, 3]))
