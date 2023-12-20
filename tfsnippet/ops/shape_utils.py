@@ -432,9 +432,9 @@ def broadcast_concat(x, y, axis, name=None):
     dynamic_shape_cache = {}
 
     def get_dynamic_shape(t):
-        if t not in dynamic_shape_cache:
-            dynamic_shape_cache[t] = get_shape(t)
-        return dynamic_shape_cache[t]
+        if t.ref() not in dynamic_shape_cache:
+            dynamic_shape_cache[t.ref()] = get_shape(t)
+        return dynamic_shape_cache[t.ref()]
 
     def broadcast_axis(i, a, b, a_tile, b_tile, a_tensor, b_tensor):
         err_msg = ('`x` and `y` cannot be broadcast concat: {} vs {}'.
